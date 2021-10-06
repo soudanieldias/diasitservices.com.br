@@ -1,0 +1,29 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+/* Propriedades de HEADER */
+header {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    padding: 10px;
+    background-color: antiquewhite;
+}
+
+/* Propriedades de Parágrafo HEADER */
+header p {
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: 20px;
+    padding: 4px;
+    border: 3px solid olive;
+    transition: 0.4s;
+}
+
+header p:hover {
+    font-size: 25px;
+    padding: 5px;
+    border: 1px solid olive;
+}

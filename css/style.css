@@ -18,12 +18,32 @@ header p {
     font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
     font-size: 20px;
     padding: 4px;
-    border: 3px solid olive;
+    border: 1px solid olive;
     transition: 0.4s;
 }
 
 header p:hover {
     font-size: 25px;
     padding: 5px;
-    border: 1px solid olive;
+    border: 3px solid olive;
+}
+
+main {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    padding: 10px;
+    background-color: #f0f0f0;
+}
+
+footer {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    padding: 10px;
+    background-color: #f0f0f0;
+    color: black;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
 }
